@@ -1,0 +1,51 @@
+body {
+    padding: 50px;
+    background-color: #010A13;
+    color: #a1a1a1;
+}
+ol{
+    all: unset;
+}
+a {
+    
+}
+h1, h2, h3{
+    font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+    color: #F0E6D2;
+}
+#mainTitle{
+    font-size: 60px;
+}
+.sectionTitle{
+    font-size: 45px;
+}
+#mainPic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
+}
+#mainPic, input, #laneOptions{
+    border: 3px solid #C89B3C;
+}
+*[title="required"]{
+    color: #C89B3C;
+}
+a{
+    color: #a1a1a1;
+}
+#selfPresentation a:hover{
+    background-color: rgba(200, 170, 110, 0.2);
+    color: #C8AA6E;
+}
+a:focus{
+    color: #C8AA6E;
+}
+::selection{
+    background-color: rgba(200, 170, 110, 0.4);
+    color: #C8AA6E;
+}
+#terms li{
+    display: inline;
+}
