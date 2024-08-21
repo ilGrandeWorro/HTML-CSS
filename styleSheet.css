@@ -1,20 +1,23 @@
+html {
+    font-size: 20px;
+}
 body {
-    padding: 50px;
     background-color: #010A13;
     color: #a1a1a1;
 }
 ol{
     all: unset;
 }
-a {
-    
-}
 h1, h2, h3{
     font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
     color: #F0E6D2;
+
 }
+
 #mainTitle{
     font-size: 60px;
+    max-width: 50ch;
+    margin-left: calc(100vw/3);
 }
 .sectionTitle{
     font-size: 45px;
@@ -35,7 +38,7 @@ h1, h2, h3{
 a{
     color: #a1a1a1;
 }
-#selfPresentation a:hover{
+#greetings a:hover{
     background-color: rgba(200, 170, 110, 0.2);
     color: #C8AA6E;
 }
@@ -46,6 +49,18 @@ a:focus{
     background-color: rgba(200, 170, 110, 0.4);
     color: #C8AA6E;
 }
-#terms li{
+#greetings, #comment, #submitComment, #outro, #interactive, #build, #opening p, figcaption, blockquote, hr{
+    max-width: 50ch;
+    margin-left: calc(100vw/3);
+}
+#forms{
+    font-size: 14px;
+    text-align: right;
     display: inline;
+}
+figcaption{
+    text-align: center;
+}
+#outro{
+    font-size: 14px;
 }

@@ -6,219 +6,213 @@
         <link href="styleSheet.css" rel="styleSheet">
     </head>
     <body>
-        <main>   
+        <main>
             <selection id="forms">
-                <form method="get">
-                    <selection id="anagraphic">
-                        <label for="firstName">First name <abbr title="required">*</abbr></label>
-                        <input type="text" id="firstName" placeholder="Xayah" required pattern="[A-Za-z]+" maxlength="20"
-                            minlength="2">
-                        <label for="lastName">Last name <abbr title="required">*</abbr></label>
-                        <input type="text" id="lastName" placeholder="Lothlan" required pattern="[A-Za-z]+" maxlength="20"
-                            minlength="2">
-                    </selection>
-                    <selection id="lanes">
-                        <label for="laneOptions">Scegli la tua corsia principale</label>
-                        <select id="laneOptions">
-                            <option value="top" id="top">Top</option>
-                            <option value="jgl" id="jgl">Jungle</option>
-                            <option value="mid" id="mid">Mid</option>
-                            <option value="bot" id="bot">Bot</option>
-                            <option value="supp" id="supp">Support</option>
-                            <option value="none" id="none">Nessuna</option>
-                        </select>
-                    </selection>
-                    <selection id="terms">
-                    <label id="list-label">Consent list:</label>
-                        <ul aria-labelledby="list-label" tabindex="0">
-                            <li>
-                                <input type="checkbox" name="subscribe" id="subscribe" value="subscribed">
-                                <label for="subscribe">Subscribe to the Murder</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" name="terms" id="terms" value="accepted" required>
-                                <label for="terms">Terms of service <abbr title="required">*</abbr></label>
-                            </li>
-                        </ul>
-                    </selection>
-                    <input id="submit" type="submit" value="Submit">
-                </form>
-            </selection>
-            <h1 id="mainTitle">Come join the murder</h1>
-            <section id="opening">
-                <figure id="openingImage">
-                    <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg" alt="Xayah skin base" id="mainPic">
-                    <figcaption>That's my miella</figcaption>
-                </figure>
-                <p id="selfPresentation">
-                    Io sono Il Grande Worro e questo è il mio <a href="https://www.linkedin.com/in/alessio-delle-donne-008a35248/" target="_blank">linkedin!</a><br>
-                    Sto studiando, al momento, HTML & CSS e in questa pagina parleremo di un personaggio su League Of Legends che io amo molto: Xayah.
-                    Non sarò molto esaustivo in quanto questo è una prova che faccio per imparare HTML e CSS.
-                </p>
-
-                <blockquote>Voleranno piume -Xayah</blockquote>
-            </section>
-            <hr>
-            <section id="build">
-            <h1 class="sectionTitle">Questa è la mia build</h1>
-                <section id="abilities">
-                    <h3 class="paragraphTitle">Abilità</h3>
-                    <table id="abilitiesDescription">
-                        <tr>
-                            <th>Q</th>
-                            <td>Lancia due piume davanti</td>
-                        </tr>
-                        <tr>
-                            <th>W</th>
-                            <td>Ottiene velocità di attacco, quando attacca lancia una piuma extra che infligge una percentuale ridotta del danno.<br>
-                            Se colpisce un nemico, guadagna anche velocità di movimento</td>
-                        </tr>
-                        <tr>
-                            <th>E</th>
-                            <td>Richiama a sè tutte le piume sul terreno, se tre o più piume colpiscono un nemico, questo resta immobilizzato</td>
-                        </tr>
-                        <tr>
-                            <th>R</th>
-                            <td>Salta in aria diventando intarghettabile per il tempo in cui rimane sospesa e lancia in avanti un ventaglio di piume.</td>
-                        </tr>
-                    </table>
-                    <br>
-                    <p><ol>
-                        <li>Q</li>
-                        <li>E</li>
-                        <li>W</li>
-                    </ol></p>
-                </section>
-                <br>
-                <section id="runes">
-                    <h3 class="paragraphTitle">Rune</h3>
-                    <table id="runeTable">
-                        <tr>
-                            <th>
-                                <a href="https://leagueoflegends.fandom.com/it/wiki/Attacco_sostenuto" target="_blank">
-                                    <img id="runeImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/5/5d/Attacco_sostenuto_rune.png/revision/latest?cb=20180409124942&path-prefix=it" 
-                                    alt="PTA" height="75" width="75">
-                                </a>
-                            </th>
-                                <td>Attacco sostenuto</td>
-                            <th>
-                                <img src="https://static.wikia.nocookie.net/leagueoflegends/images/f/f8/Calzature_magiche_rune.png/revision/latest?cb=20180409132856&path-prefix=it"
-                                    alt="magic boots" height="50" width="50">
-                            </th>
-                            <td>Calzature magiche</td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <a href="https://leagueoflegends.fandom.com/it/wiki/Trionfo" target="_blank">
-                                <img id="runeImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/4/43/Trionfo_rune.png/revision/latest?cb=20180409125131&path-prefix=it"
-                                    alt="Triumph" height="50" width="50">
-                                </a>
-                            </th>
-                                <td>Trionfo</td>
-                            <th>
-                                <img id="runeImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bc/Consegna_biscotti_rune.png/revision/latest?cb=20180409132846&path-prefix=it"
-                                    alt="Biscuit delivery" height="50" width="50">
-                            </th>
-                            <td>Consegna biscotti</td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <a href="https://leagueoflegends.fandom.com/it/wiki/Leggenda:_Alacrità" target="_blank">
-                                <img id="runeImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/3/33/Leggenda-_Alacrità_rune.png/revision/latest?cb=20180409124948&path-prefix=it"
-                                    alt="Alacrity" height="50" width="50">
-                                </a>
-                            </th>
-                                <td>Leggenda: Alacrità</td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <img id="runeImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/6/64/Taglio_profondo_rune.png/revision/latest?cb=20180409125453&path-prefix=it"
-                                    alt="Deep cut" height="50" width="50" >
-                            </th>
-                            <td>Taglio profondo</td>
-                        </tr>
-                        <tr>
-                            <th>
-                                <img id="shardImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/e/e4/Rune_shard_Attack_Speed.png/revision/latest/scale-to-width-down/30?cb=20181122101609"
-                                    alt="attack speed" height="15" width="15">
-                            </th>
-                            <td>
-                                10% velocità attacco
-                            </td>
-                            <th>
-                                <img id="shardImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/a/a3/Rune_shard_Adaptive_Force.png/revision/latest/scale-to-width-down/30?cb=20181122101607"
-                                    alt="bonus damage" height="15" width="15">
-                            </th>
-                            <td>
-                                5,4 danno aggiuntivo
-                            </td>
-                            <th>
-                                <img id="shardImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/7/76/Rune_shard_Health.png/revision/latest/scale-to-width-down/30?cb=20181122101610"
-                                    alt="health bonus" height="15" width="15">
-                            </th>
-                            <td>
-                                65 punti salute aggiuntivi
-                            </td>
-                        </tr>
-                    </table>
-                </section>
-                <section id="items">
-                    <h3 class="paragraphTitle">Oggetti</h3>
-                    <p><ul>
-                        <li>lama di doran</li>
-                        <li>pozione</li>
-                    </ul></p>
-                    <p id="buildingPath">
-                        Recall a 1300G per comprare la B.F.Sword, ma nel caso non riuscissi a recallare a 1300G,
-                        cerca di tornare in base con almeno 875, così da poter comprare il piccone.
-                        <br>
-                        Punta a costruire il frammento d'infinito come primo oggetto, ma se necessiti di movimento,
-                        prova a ritornare in base con 1100G per comprarti Fervore.
-                        Tanto quando arriveranno gli stivali delle rune potrai comprarti i Gambali del berserker a 800G
-                        <br>
-                        Dopo la IE, le Navori sono un must e come terzo item prendi un oggetto per abbattere l'armatura, perché i nemici a questo punto cominceranno ad averla.
-                        Completato questo terzo item dovresti riuscire a garantire ogni drago. Puoi piazzare un'enorme quantità di piume e con una semplice E a 2000 o 2400 HP
-                        dovresti riuscire a eliminarlo. Considera che uno Smite toglie 1200 HP al massimo, tu hai oltre il doppio del range di danno.
-                        <br>
-                        Nel caso di nemici fragili, puoi optare per altri oggetti. 
-                        Alcuni usano il Danzatore Fantasma per muoversi a velocità mach sulla landa. Se preferisci fare danni,però, suggerisco le Frecce Yun Tal.
-                        <br>
-                        A questo punto dovresti prenderti un item difensivo. La bramasangue è molto apprezzata per il danno ed il rubavita, ma non temere di andare
-                        anche verso gli oggetti da tank, a volte un Fulcro dei geli può fare una grande differenza anche se non fa danno.
-                        <br>
-                        Come ultimo oggetto è consigliato un oggetto da critico per arrivare al 100% di possibilità di colpo critico, ma anche un 75% può andare bene,
-                        quindi hai la libertà di prendere oggetti anche non da critico. A questo punto è veramente consigliato avere un oggetto di penetrazione armatura
-                        se non è stato già preso, altrimenti prendi l'oggetto che più ti aggrada.
-                        <br>
-                        Se hai preso come oggetto difensivo la Bramasangue e hai completato la build, dovresti riuscire a sconfiggere il Barone da solo.
-                        <br>
-                        Ricorda anche che se prendi i gambali del berskerker, al livello 15 puoi spendere 2000G per potenziarli ulteriormente. Suggerisco di tenere questa opzione
-                        nel caso la build sia finita e non sai più come spendere i soldi.
-                    </p>
-                </section>
-            </section>
-            <hr>
-            <section id="interactive">
-                <h1 class="sectionTitle">Media interessanti</h1>
-                <section id="audio">
-                    <h2>Questa è una delle canzoni che amo usare mentre gioco Xayah</h2>
-                    <audio controls>
-                        <source src="4URA & VinDon - AKTIV [NCS Release].mp3" type="audio/mp3" alt="4URA & VinDon - AKTIV [NCS Release].mp3">
-                    </audio>
-                </section>
-            </section>
-                <hr>
-                <selection id="commentSection">
-                    <h1 class="sectionTitle">Commenti di altri utenti</h1>
-                    <form>
-                        <label for="comment">Scrivi qui il tuo commento: </label>
-                        <br>
-                        <textarea name="comment" id="comment" rows="10" cols="100" value="commented"></textarea>
+                <div>
+                    <form method="get">
+                        <selection id="anagraphic">
+                            <label for="firstName">First name <abbr title="required">*</abbr></label>
+                            <input type="text" id="firstName" placeholder="Xayah" required pattern="[A-Za-z]+" maxlength="20"
+                                minlength="2">
+                            <label for="lastName">Last name <abbr title="required">*</abbr></label>
+                            <input type="text" id="lastName" placeholder="Lothlan" required pattern="[A-Za-z]+" maxlength="20"
+                                minlength="2">
+                        </selection>
+                        <selection id="lanes">
+                            <label for="laneOptions">Scegli la tua corsia principale</label>
+                            <select id="laneOptions">
+                                <option value="top" id="top">Top</option>
+                                <option value="jgl" id="jgl">Jungle</option>
+                                <option value="mid" id="mid">Mid</option>
+                                <option value="bot" id="bot">Bot</option>
+                                <option value="supp" id="supp">Support</option>
+                                <option value="none" id="none">Nessuna</option>
+                            </select>
+                        </selection>
+                        <selection id="terms">
+                            <label for="subscribe">Subscribe to the Murder</label>
+                            <input type="checkbox" name="subscribe" id="subscribe" value="subscribed">
+                            <label for="terms">Terms of service <abbr title="required">*</abbr></label>
+                            <input type="checkbox" name="terms" id="terms" value="accepted" required>
+                        </selection>
+                        <input id="submit" type="submit" value="Submit">
                     </form>
+                </div>
+            </selection>
+                <h1 id="mainTitle">Come join the murder</h1>
+                <section id="opening">
+                    <figure id="openingImage">
+                        <img src="https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Xayah_0.jpg" alt="Xayah skin base" id="mainPic">
+                        <figcaption>That's my miella</figcaption>
+                    </figure>
+                    <section id="greetings">
+                        <h2>Io sono Il Grande Worro e questo è il mio <a href="https://www.linkedin.com/in/alessio-delle-donne-008a35248/"
+                        target="_blank">linkedin!</a></h2>
+                    </section>
+                    <p id="selfPresentation">
+                        Sto studiando, al momento, HTML & CSS e in questa pagina parleremo di un personaggio su League Of Legends che io amo molto: Xayah.
+                        Non sarò molto esaustivo in quanto questo è una prova che faccio per imparare HTML e CSS.
+                    </p>
+                    <blockquote>Voleranno piume -Xayah</blockquote>
+                </section>
+                <hr>
+                <section id="build">
+                <h1 class="sectionTitle">Questa è la mia build</h1>
+                    <section id="abilities">
+                        <h3 class="paragraphTitle">Abilità</h3>
+                        <table id="abilitiesDescription">
+                            <tr>
+                                <th>Q</th>
+                                <td>Lancia due piume davanti</td>
+                            </tr>
+                            <tr>
+                                <th>W</th>
+                                <td>Ottiene velocità di attacco, quando attacca lancia una piuma extra che infligge una percentuale ridotta del danno.<br>
+                                Se colpisce un nemico, guadagna anche velocità di movimento</td>
+                            </tr>
+                            <tr>
+                                <th>E</th>
+                                <td>Richiama a sè tutte le piume sul terreno, se tre o più piume colpiscono un nemico, questo resta immobilizzato</td>
+                            </tr>
+                            <tr>
+                                <th>R</th>
+                                <td>Salta in aria diventando intarghettabile per il tempo in cui rimane sospesa e lancia in avanti un ventaglio di piume.</td>
+                            </tr>
+                        </table>
+                        <br>
+                        <p><ol>
+                            <li>Q</li>
+                            <li>E</li>
+                            <li>W</li>
+                        </ol></p>
+                    </section>
+                    <br>
+                    <section id="runes">
+                        <h3 class="paragraphTitle">Rune</h3>
+                        <table id="runeTable">
+                            <tr>
+                                <th>
+                                    <a href="https://leagueoflegends.fandom.com/it/wiki/Attacco_sostenuto" target="_blank">
+                                        <img id="runeImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/5/5d/Attacco_sostenuto_rune.png/revision/latest?cb=20180409124942&path-prefix=it" 
+                                        alt="PTA" height="75" width="75">
+                                    </a>
+                                </th>
+                                    <td>Attacco sostenuto</td>
+                                <th>
+                                    <img src="https://static.wikia.nocookie.net/leagueoflegends/images/f/f8/Calzature_magiche_rune.png/revision/latest?cb=20180409132856&path-prefix=it"
+                                        alt="magic boots" height="50" width="50">
+                                </th>
+                                <td>Calzature magiche</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <a href="https://leagueoflegends.fandom.com/it/wiki/Trionfo" target="_blank">
+                                    <img id="runeImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/4/43/Trionfo_rune.png/revision/latest?cb=20180409125131&path-prefix=it"
+                                        alt="Triumph" height="50" width="50">
+                                    </a>
+                                </th>
+                                    <td>Trionfo</td>
+                                <th>
+                                    <img id="runeImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/b/bc/Consegna_biscotti_rune.png/revision/latest?cb=20180409132846&path-prefix=it"
+                                        alt="Biscuit delivery" height="50" width="50">
+                                </th>
+                                <td>Consegna biscotti</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <a href="https://leagueoflegends.fandom.com/it/wiki/Leggenda:_Alacrità" target="_blank">
+                                    <img id="runeImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/3/33/Leggenda-_Alacrità_rune.png/revision/latest?cb=20180409124948&path-prefix=it"
+                                        alt="Alacrity" height="50" width="50">
+                                    </a>
+                                </th>
+                                    <td>Leggenda: Alacrità</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <img id="runeImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/6/64/Taglio_profondo_rune.png/revision/latest?cb=20180409125453&path-prefix=it"
+                                        alt="Deep cut" height="50" width="50" >
+                                </th>
+                                <td>Taglio profondo</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <img id="shardImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/e/e4/Rune_shard_Attack_Speed.png/revision/latest/scale-to-width-down/30?cb=20181122101609"
+                                        alt="attack speed" height="15" width="15">
+                                </th>
+                                <td>
+                                    10% velocità attacco
+                                </td>
+                                <th>
+                                    <img id="shardImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/a/a3/Rune_shard_Adaptive_Force.png/revision/latest/scale-to-width-down/30?cb=20181122101607"
+                                        alt="bonus damage" height="15" width="15">
+                                </th>
+                                <td>
+                                    5,4 danno aggiuntivo
+                                </td>
+                                <th>
+                                    <img id="shardImg" src="https://static.wikia.nocookie.net/leagueoflegends/images/7/76/Rune_shard_Health.png/revision/latest/scale-to-width-down/30?cb=20181122101610"
+                                        alt="health bonus" height="15" width="15">
+                                </th>
+                                <td>
+                                    65 punti salute aggiuntivi
+                                </td>
+                            </tr>
+                        </table>
+                    </section>
+                    <section id="items">
+                        <h3 class="paragraphTitle">Oggetti</h3>
+                        <p><ul>
+                            <li>lama di doran</li>
+                            <li>pozione</li>
+                        </ul></p>
+                        <p id="buildingPath">
+                            Recall a 1300G per comprare la B.F.Sword, ma nel caso non riuscissi a recallare a 1300G,
+                            cerca di tornare in base con almeno 875, così da poter comprare il piccone.
+                            <br>
+                            Punta a costruire il frammento d'infinito come primo oggetto, ma se necessiti di movimento,
+                            prova a ritornare in base con 1100G per comprarti Fervore.
+                            Tanto quando arriveranno gli stivali delle rune potrai comprarti i Gambali del berserker a 800G
+                            <br>
+                            Dopo la IE, le Navori sono un must e come terzo item prendi un oggetto per abbattere l'armatura, perché i nemici a questo punto cominceranno ad averla.
+                            Completato questo terzo item dovresti riuscire a garantire ogni drago. Puoi piazzare un'enorme quantità di piume e con una semplice E a 2000 o 2400 HP
+                            dovresti riuscire a eliminarlo. Considera che uno Smite toglie 1200 HP al massimo, tu hai oltre il doppio del range di danno.
+                            <br>
+                            Nel caso di nemici fragili, puoi optare per altri oggetti. 
+                            Alcuni usano il Danzatore Fantasma per muoversi a velocità mach sulla landa. Se preferisci fare danni,però, suggerisco le Frecce Yun Tal.
+                            <br>
+                            A questo punto dovresti prenderti un item difensivo. La bramasangue è molto apprezzata per il danno ed il rubavita, ma non temere di andare
+                            anche verso gli oggetti da tank, a volte un Fulcro dei geli può fare una grande differenza anche se non fa danno.
+                            <br>
+                            Come ultimo oggetto è consigliato un oggetto da critico per arrivare al 100% di possibilità di colpo critico, ma anche un 75% può andare bene,
+                            quindi hai la libertà di prendere oggetti anche non da critico. A questo punto è veramente consigliato avere un oggetto di penetrazione armatura
+                            se non è stato già preso, altrimenti prendi l'oggetto che più ti aggrada.
+                            <br>
+                            Se hai preso come oggetto difensivo la Bramasangue e hai completato la build, dovresti riuscire a sconfiggere il Barone da solo.
+                            <br>
+                            Ricorda anche che se prendi i gambali del berskerker, al livello 15 puoi spendere 2000G per potenziarli ulteriormente. Suggerisco di tenere questa opzione
+                            nel caso la build sia finita e non sai più come spendere i soldi.
+                        </p>
+                    </section>
+                </section>
+                <hr>
+                <section id="interactive">
+                    <h1 class="sectionTitle">Media interessanti</h1>
+                    <section id="audio">
+                        <h2>Questa è una delle canzoni che amo usare mentre gioco Xayah</h2>
+                        <audio controls>
+                            <source src="4URA & VinDon - AKTIV [NCS Release].mp3" type="audio/mp3" alt="4URA & VinDon - AKTIV [NCS Release].mp3">
+                        </audio>
+                    </section>
+                </section>
+                <hr>
+                <selection id="areaUtenti">
+                    <form>
+                        <textarea name="comment" id="comment" rows="10" cols="100" value="commented" placeholder="Lascia qui il tuo commento"></textarea>
+                    </form>
+                    <input id="submitComment" type="submit">
                 </selection>
             <hr>
-            <br>
-            <a href="https://lolalytics.com/it/lol/xayah/build/">Leggi altre build</a>
+            <a href="https://lolalytics.com/it/lol/xayah/build/" target="_blank" id="outro">Leggi altre build</a>
         </main>
     </body>
 </html>
